@@ -147,9 +147,12 @@ margin: 0 30px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .input-style, .submit-btn{
+        width: 300px;
+    }
            /* image effect */
-           .image-hover-text-bubble {
-               width: 120px;
+           .image-hover-text-bubble,.image-hover-image img {
+               width: 80px;
                margin: 0;
            }
 
