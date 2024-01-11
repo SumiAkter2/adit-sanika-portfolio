@@ -24,7 +24,7 @@ gap: 5px;
 }
 .footer-border{
     border-top: 1px solid gray;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 /* input form design */
 .input-style {
@@ -66,6 +66,12 @@ gap: 5px;
 .submit-btn:hover {
     background: #323639;
     border: 1px solid gray;
+}
+
+.footer-contact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px 0 20px 0;
 }
 
 /* image hover effect */
@@ -145,5 +151,10 @@ margin: 0 30px;
            .image-hover-text-bubble {
                width: 120px;
                margin: 0;
+           }
+
+           .footer-contact{
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
            }
 }
