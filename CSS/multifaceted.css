@@ -52,17 +52,27 @@ display: none;
   .mobile-table  {
 margin-top: 20px;
 display: block;
+border: 1px solid #000000;
+margin: 20px 0;
   }
-tr td:nth-child(1) {
-    /* background: rgba(240, 128, 128, 0.564); */
-    width: 100%;
-    /* padding: 10px; */
-
+.table-heading{
+    background: rgba(240, 128, 128, 0.595);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    
 }
-  tr:nth-child(odd) {
-      background: rgba(135, 134, 134, 0.255);
-      width: 100%;
-      padding: 10px;
-  }
-
+.table-red-heading{
+    background: #C43721;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+}
+.table-content p{
+    padding: 10px;
+}
+.table-content{
+    border: 0.2px solid  #00000096;
+   
+}
 }
