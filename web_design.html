@@ -225,16 +225,40 @@
             </div>
             <div class="input-first-row">
               <p>
-                <label> Mail <span style="color: red">*</span></label>
+                <label> Your profile </label>
                 <br />
-                <input class="inputs" type="text" />
+
+                <select class="inputs">
+                  <option disabled class="disable">Of a company</option>
+
+                  <option>Human resources director</option>
+                  <option>Design area</option>
+                  <option>Development area</option>
+                  <option>Others</option>
+                  <option disabled class="disable">Personal</option>
+
+                  <option>Designer</option>
+                  <option>Programmer</option>
+                  <option>Others</option>
+                </select>
               </p>
               <p>
-                <label> Website <span style="color: red">*</span></label>
+                <label> Your image <span style="color: red">*</span></label>
                 <br />
-                <input class="inputs" type="text" />
+                <input class="inputs-file" type="file" />
               </p>
             </div>
+            <div >
+              <p>
+                <label> Your comment</label>
+                <br />
+                <textarea class="textarea" type="text"></textarea>
+              </p>
+            </div>
+
+            <button class="Submit-btn">Submit</button>
+            <br />
+            <button class="reset-btn">Reset</button>
           </form>
         </section>
       </section>
