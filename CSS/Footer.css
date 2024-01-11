@@ -2,12 +2,14 @@ footer{
     background:  #323639;
     color: #C1C2C4;
 }
-.footer-content{
+.footer{
     margin: 0 100px;
-    display: flex ;
-    justify-content: space-between;
-    align-items: start;
-    gap: 10px;
+}
+.footer-content{
+   margin-bottom: 50px;
+   display: grid ;
+   grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 .footer-content p{
     margin-top: 20px;
@@ -15,25 +17,133 @@ footer{
 .footer-title{
 padding: 30px 0;
 } 
-.footer-img{
-position: relative;
+ .footer-img{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 5px;
 }
-.footer-img img{
-    width: 100px;
-   
-    
+.footer-border{
+    border-top: 1px solid gray;
+    padding: 30px 0;
 }
-.image-hover{
+/* input form design */
+.input-style {
+    padding: 10px;
+    border: 0;
+    border-radius: 0px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    background: #829DA2;
+    width: 350px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.input-style:focus {
+    border-color: #fff;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submit-btn {
+    padding: 10px;
+    border: 0;
+    border-radius: 0px;
+    font-size: 16px;
+    color: gray;
+    outline: none;
+    background: #fff;
+    width: 350px;
+    font-weight: 600;
+    margin: 5px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background: #323639;
+    border: 1px solid gray;
+}
+
+/* image hover effect */
+
+.image-hover-text-container {
+    position: relative;
+    display: inline-block;
+
+    width: auto;
+    height: auto;
+    transition: all 0.2s linear;
+}
+
+.image-hover-image {
+    display: block;
+}
+
+
+.image-hover-image img {
+    border-radius: 0%;
+    width: 120px;
+    height: 80px;
+    border-radius: 2px;
+}
+
+
+
+.image-hover-text {
     position: absolute;
-    top: 2px;
-    left: 5px;
-    color: red;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    cursor: default;
+    transition: opacity 0.2s linear;
 }
 
-@media screen and (max-width:560px) {
+.image-hover-text:hover {
+    opacity: 1;
+}
 
+
+.image-hover-text-bubble {
+    position: relative;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 100%;
+    height: 80px;
+    border-radius: 2px;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.658);
+    margin: 0 auto;
+    padding: 25% 8px 5px 8px;
+    overflow: hidden;
+    font-size: 17px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.image-hover-text .image-hover-text-title {
+    font-size: 25px;
+    display: block;
+    color: #fff;
+}
+@media screen and (max-width:560px) {
+.footer{
+margin: 0 30px;
+}
     .footer-content{
-        margin: 0 30px;
+       
         display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
+           /* image effect */
+           .image-hover-text-bubble {
+               width: 120px;
+               margin: 0;
+           }
 }

@@ -185,10 +185,6 @@ box-shadow: 0 0px 3px 3px gray;
     padding-top: 10px;
 }
 
-
-
-
-
 @media screen and (max-width:560px){
     body{
         margin: 0 30px;
@@ -262,4 +258,6 @@ box-shadow: 0 0px 3px 3px gray;
 
    
 }
+
+
             }
