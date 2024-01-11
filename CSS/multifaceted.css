@@ -1,0 +1,15 @@
+
+/* multifaceted section */
+.multifaceted-section{
+    margin: 50px 100px;
+}
+
+
+@media screen and (max-width:560px) {
+.multifaceted-section {
+        margin: 50px 30px;
+    }
+
+  
+
+}
