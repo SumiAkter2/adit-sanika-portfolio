@@ -155,7 +155,8 @@ font-weight: 500;
 }
 
 .work-image-hover-text .work-image-hover-text-title {
-    font-size: 25px;
+    font-size: 55px;
+    font-weight: 900;
     display: block;
     color: #fff;
 }

@@ -35,3 +35,57 @@
     padding-top: 30px;
     padding-bottom: 20px;
 }
+/* web_design section */
+.web_design-section{
+    margin: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.left-section{
+    flex: 70%;
+    border-right: 1px solid rgba(128, 128, 128, 0.453);
+    padding-right: 10px;
+}
+/* right section */
+.right-section{
+    flex: 30%;
+    padding-left: 30px;
+}
+.right-section ul{
+    padding-left: 20px;
+}
+.right-section ul li{
+    padding-top: 5px;
+}
+.right-section h3{
+    padding: 20px 0;
+}
+.right-section ul li a{
+    color: #000;
+    font-size: 16px;
+   
+}
+.right-btn{
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width:560px) {
+    body {
+        margin: 0 30px;
+    }
+
+    .banner-content {
+        width: 320px;
+
+    }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+}

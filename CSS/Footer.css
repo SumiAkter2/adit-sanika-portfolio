@@ -135,6 +135,7 @@ gap: 5px;
 
 .image-hover-text .image-hover-text-title {
     font-size: 25px;
+    font-weight: 900;
     display: block;
     color: #fff;
 }
