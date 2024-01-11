@@ -40,12 +40,100 @@
     margin: 50px 100px;
     display: flex;
     flex-wrap: wrap;
+    font-weight: 500;
    
 }
 .left-section{
     flex: 70%;
     border-right: 1px solid rgba(128, 128, 128, 0.453);
     padding-right: 10px;
+}
+
+.title{
+            margin-top: 50px;
+            font-family: 'Yellowtail',
+                cursive;
+            font-size: 40px;
+            color: #C43721;
+            text-transform: uppercase;
+            margin: 30px 0;
+        
+}
+.left-section-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.image{
+/* text-align: right; */
+    margin-top: 30px;
+}
+.image p{
+    color: #C43721;
+    text-transform: uppercase;
+    font-weight: 600;
+    float: right;
+}
+.image img{
+    width: 350px;
+}
+.text-content p{
+    margin-top: 20px;
+    
+}
+/* quotation-text */
+.quotation-text{
+    padding: 40px;
+    margin: 70px 0px 40px 80px;
+    background: rgba(240, 128, 128, 0.134);
+    border-left: 8px solid #C43721;
+}
+.quotation-text p{
+   font-weight: 500;
+   font-size: 20px;
+   color: #C43721;
+   font-style: italic;
+}
+
+/* Comments-section */
+.Comments-section h1{
+    margin-top: 50px;
+        font-size: 40px;
+        color: #000;
+        margin: 30px 0;
+}
+.comment-box{
+    background: lightgray;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.identity-section{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 5px;
+}
+.identity-section h2{
+    font-style: italic;
+}
+.input-first-row{
+    display:flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input{
+    padding: 10px;
+    width: 200px;
+   
+}
+.inputs{
+    padding: 10px;
+    width: 340px;
+   
 }
 /* right section */
 .right-section{
@@ -67,25 +155,65 @@
    
 }
 .right-btn{
-    background: #000;
+    background: rgb(74, 73, 73);
     color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.right-btn:hover{
+    background: #C43721;
+    cursor: pointer;
 }
 
 
 
 
-
 @media screen and (max-width:560px) {
-    body {
-        margin: 0 30px;
-    }
+    
 
     .banner-content {
         width: 320px;
+        margin: 0;
 
     }
 
     .banner-content h1 {
         font-size: 50px;
     }
+.web_design-section{
+    margin: 0 30px;
+}
+    /* left section */
+        .left-section-content {
+            display: grid;
+            justify-content: center;
+        }
+        .left-section-content{
+            width: 100%;
+        }
+        .image img{
+            width: 300px;
+            margin: 10px auto;
+            
+        };
+        .image {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+                .quotation-text {
+                    margin:  40px 0px 40px 30px;
+                }
+
+                /* comment */
+                .input {
+                  
+                    width: 100%;
+                
+                }
 }
