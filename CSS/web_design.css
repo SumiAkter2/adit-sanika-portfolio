@@ -18,7 +18,7 @@
     width: 420px;
     text-align: center;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,11 +227,12 @@ form{
    /* bg image */
     .background-image{
         height: 80px;
+        margin-top: 80px;
     }
     
 
     .banner-content {
-        width: 220px;
+        width: 420px;
         margin: 0;
         height: 50px;
 
