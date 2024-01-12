@@ -5,7 +5,7 @@
 }
 /* table section */
 .heading{
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     margin: 30px 0;
     text-align: center;
@@ -48,7 +48,9 @@ tr:nth-child(odd){
 .multifaceted-section {
         margin: 50px 30px;
     }
-
+.heading{
+    font-size: 20px;
+}
   .desktop-table{
 display: none;
   }
@@ -62,7 +64,7 @@ margin: 20px 0;
     background: rgba(240, 128, 128, 0.595);
     text-align: center;
     padding: 10px;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 .table-red-heading{

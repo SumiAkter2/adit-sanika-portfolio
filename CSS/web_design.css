@@ -176,7 +176,7 @@ form{
     width: 650px;
     padding: 10px;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
 }
 .Submit-btn:hover{
@@ -207,7 +207,7 @@ form{
 .right-btn{
     background: rgb(74, 73, 73);
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     border: 0;
     padding: 8px 15px;
     border-radius: 2px;
