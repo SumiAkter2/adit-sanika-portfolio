@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-    margin: 0;
+    margin-top: 80px;
 }
 
 .banner-content {
@@ -132,18 +132,19 @@ form{
 }
 .input{
     padding: 10px;
-    width: 220px;
+    width: 200px;
    
 }
-.inputs{
+.inputs,.inputs-file{
     padding: 10px;
-    width: 360px;
+    width: 280px;
     font-weight: 500;
    
 }
+
 .textarea{
     padding: 10px;
-        width: 720px;
+        width: 650px;
         font-weight: 600;
         height: 150px;
         margin-bottom:20px;
@@ -173,7 +174,7 @@ form{
 }
 .Submit-btn,.reset-btn{
     border: 1px solid gray;
-    width: 740px;
+    width: 650px;
     padding: 10px;
     margin-bottom: 5px;
     font-size: 18px;
