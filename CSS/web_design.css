@@ -10,7 +10,6 @@
     align-items: center;
     padding: 30px;
     margin: 0;
-
 }
 
 .banner-content {
@@ -32,26 +31,24 @@
     font-size: 40px;
 }
 
-.banner-content p {
-    /* padding-top: 30px; */
-    padding-bottom: 20px;
-}
+
 /* web_design section */
 .web_design-section{
     margin: 50px 100px;
     display: flex;
-    flex-wrap: wrap;
-    font-weight: 500;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 16px;
    
 }
 .left-section{
-    flex: 70%;
+    width: 70%;
     border-right: 1px solid rgba(128, 128, 128, 0.453);
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 .title{
-            margin-top: 50px;
+           
             font-family: 'Yellowtail',
                 cursive;
             font-size: 40px;
@@ -85,7 +82,7 @@
 }
 /* quotation-text */
 .quotation-text{
-    padding: 40px;
+    padding: 20px;
     margin: 70px 0px 40px 80px;
     background: rgba(240, 128, 128, 0.134);
     border-left: 8px solid #C43721;
@@ -128,8 +125,7 @@ form{
     justify-content: start;
     align-items: center;
     gap: 10px;
-    /* width: 100%; */
-    margin-bottom: 20px;
+ 
 }
 .input{
     padding: 10px;
@@ -174,7 +170,7 @@ form{
 }
 .Submit-btn,.reset-btn{
     border: 1px solid gray;
-    width: 720px;
+    width: 740px;
     padding: 10px;
     margin-bottom: 5px;
     font-size: 18px;
@@ -188,8 +184,8 @@ form{
 }
 /* right section */
 .right-section{
-    flex: 30%;
-    padding-left: 30px;
+    width: 30%;
+    padding-left: 10px;
 }
 .right-section ul{
     padding-left: 20px;
@@ -224,12 +220,15 @@ form{
 
 
 @media screen and (max-width:560px) {
+   
     .background-image{
         height: 80px;
+        
     }
+    
 
     .banner-content {
-        width: 320px;
+        width: 220px;
         margin: 0;
         height: 50px;
 
@@ -240,16 +239,20 @@ form{
     }
     /* web design */
 .web_design-section{
-    margin: 0 30px;
+    /* margin: 0 30px; */
     display: grid;
+    width: 100%;
 }
     /* left section */
+    .left-section{
+        width: 100%;
+    }
         .left-section-content {
             display: grid;
             justify-content: center;
         }
         .left-section-content{
-            /* width: 100%; */
+            width: 100%;
         }
         .title{
             font-size: 24px;
@@ -279,6 +282,7 @@ form{
                 /* right section */
 
                 .right-section{
+                    width: 100%;
                     margin-top: 50px;
                 }
               
