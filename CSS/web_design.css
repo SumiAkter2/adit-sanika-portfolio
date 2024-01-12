@@ -92,8 +92,11 @@
    font-size: 20px;
    color: #C43721;
    font-style: italic;
+   padding-left: 30px;
 }
-
+.fa-lightbulb{
+    padding-right: 10px;
+}
 /* Comments-section */
 .Comments-section h1{
     margin-top: 50px;
@@ -220,10 +223,9 @@ form{
 
 
 @media screen and (max-width:560px) {
-   
+   /* bg image */
     .background-image{
         height: 80px;
-        
     }
     
 
@@ -239,21 +241,21 @@ form{
     }
     /* web design */
 .web_design-section{
-    /* margin: 0 30px; */
-    display: grid;
-    width: 100%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
 }
     /* left section */
     .left-section{
         width: 100%;
+        border: 0;
     }
         .left-section-content {
             display: grid;
             justify-content: center;
-        }
-        .left-section-content{
             width: 100%;
         }
+        
         .title{
             font-size: 24px;
         }
@@ -274,11 +276,16 @@ form{
 
                 /* comment */
                 
-                
-                                input,
-                                .textarea.inputs, .inputs-file,.Submit-btn,.reset-btn{
-                    width: 100%;
+        .input{
+            width: 50px;
+        }
+                .inputs-file,.inputs{
+                    width: 100px;
+
                 }
+       .textarea,.Submit-btn,.reset-btn{
+                    width: 230px;
+    }
                 /* right section */
 
                 .right-section{
