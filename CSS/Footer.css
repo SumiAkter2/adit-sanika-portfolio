@@ -47,7 +47,7 @@ margin: 0;
     border-radius: 3px;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
-
+/* submit btn */
 .submit-btn {
     padding: 10px;
     border: 0;
@@ -62,6 +62,7 @@ margin: 0;
     border-radius: 3px;
     cursor: pointer;
     text-transform: uppercase;
+    transition: 0.3s ease-in;
 }
 
 .submit-btn:hover {
@@ -152,6 +153,7 @@ margin: 0;
     color:rgb(72, 72, 72);
     padding: 8px;
     border-radius: 2px;
+    transition: 0.3s ease-in;
 }
 .fa-dribbble:hover{
 background: #EA4C89;
@@ -179,6 +181,10 @@ background: #4E658E;
 }
 .fa-solid{
     padding-right: 3px;
+}
+
+.contact{
+    margin-top: 20px;
 }
 @media screen and (max-width:560px) {
 .footer{
@@ -209,4 +215,19 @@ margin: 0 30px;
             gap: 20px;
             font-size: 14px;
            }
+}
+
+/* tablet */
+@media screen and (min-width: 561px) and (max-width: 993px) {
+
+
+
+    .footer-content ,.footer-contact{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+        .input-style,.submit-btn {
+            width: 200px;
+        }
+      
 }

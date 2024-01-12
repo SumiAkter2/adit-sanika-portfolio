@@ -148,10 +148,10 @@ form{
         height: 150px;
         margin-bottom:20px;
 }
-/* .input:focus{
+.input:focus{
     border: 1px solid #C43721;
     outline: #C43721;
-} */
+}
 .inputs:focus{
     border: 1px solid #C43721;
     outline: #C43721;
@@ -171,6 +171,11 @@ form{
     color: rgb(16, 1, 1);
     font-size: 20px;
 }
+
+select option{
+    font-size: 16px;
+    color: #000;
+}
 .Submit-btn,.reset-btn{
     border: 1px solid gray;
     width: 650px;
@@ -178,12 +183,15 @@ form{
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 600;
+    transition: 0.3s ease-in;
 }
 .Submit-btn:hover{
-    background: green;
+    background: #189232;
+    color: #fff;
 }
 .reset-btn:hover{
-    background:#C43721;
+    background:#ff0000;
+    color: #fff;
 }
 /* right section */
 .right-section{
@@ -205,7 +213,7 @@ form{
    
 }
 .right-btn{
-    background: rgb(74, 73, 73);
+    background: #474747;
     color: #fff;
     font-size: 14px;
     border: 0;
@@ -213,6 +221,7 @@ form{
     border-radius: 2px;
     font-weight: 500;
     margin-bottom: 10px;
+    transition: 0.3s ease-in;
 }
 .right-btn:hover{
     background: #C43721;

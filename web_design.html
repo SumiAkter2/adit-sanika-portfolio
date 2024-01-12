@@ -40,12 +40,12 @@
 
       <nav class="nav">
         <ul class="menu" id="menu">
-          <li><a href="./index.html" class="menu-item active">Home</a></li>
+          <li><a href="./index.html" class="menu-item">Home</a></li>
           <li>
             <a href="./multifaceted.html" class="menu-item">Multifaceted</a>
           </li>
           <li><a href="#" class="menu-item">Pricing</a></li>
-          <li><a href="#" class="menu-item">Blog</a></li>
+          <li><a href="./web_design.html" class="menu-item active">Blog</a></li>
           <li><a href="#" class="menu-item">Contact</a></li>
         </ul>
       </nav>
@@ -234,22 +234,22 @@
             </div>
 
             <h1>Write A Comment</h1>
-            <form>
+            <form action="#">
               <div class="input-first-row">
                 <p>
                   <label> Name <span style="color: red">*</span></label>
                   <br />
-                  <input class="input" type="text" />
+                  <input class="input" type="text" required />
                 </p>
                 <p>
                   <label> Mail <span style="color: red">*</span></label>
                   <br />
-                  <input class="input" type="text" />
+                  <input class="input" type="email" required />
                 </p>
                 <p>
                   <label> Website <span style="color: red">*</span></label>
                   <br />
-                  <input class="input" type="text" />
+                  <input class="input" type="text" required />
                 </p>
               </div>
               <div class="input-first-row">
@@ -263,7 +263,7 @@
                     <option>Human resources director</option>
                     <option>Design area</option>
                     <option>Development area</option>
-                    <option>Others</option>
+                    <option disabled>Others</option>
                     <option disabled class="disable">Personal</option>
 
                     <option>Designer</option>
@@ -274,7 +274,7 @@
                 <p>
                   <label> Your image <span style="color: red">*</span></label>
                   <br />
-                  <input class="inputs-file" type="file" />
+                  <input class="inputs-file" type="file" required />
                 </p>
               </div>
               <div>
@@ -299,7 +299,9 @@
             <h3>The Whole Series</h3>
             <ul>
               <li>
-                <a href="#">Web Design: Shaping the Digital Experience </a>
+                <a href="./web_design.html"
+                  >Web Design: Shaping the Digital Experience
+                </a>
               </li>
               <li>
                 <a href="#"> Web Design: All about </a>
@@ -388,7 +390,7 @@
               <div class="footer-img">
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_1.jpg" />
+                    <img src="./images/footer/footer_1.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -398,7 +400,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_2.jpg" />
+                    <img src="./images/footer/footer_2.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -408,7 +410,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_3.jpg" />
+                    <img src="./images/footer/footer_3.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -418,7 +420,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_4.jpg" />
+                    <img src="./images/footer/footer_4.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -428,7 +430,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_6.jpg" />
+                    <img src="./images/footer/footer_5.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -438,7 +440,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_4.jpg" />
+                    <img src="./images/footer/footer_6.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -448,7 +450,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_7.jpg" />
+                    <img src="./images/footer/footer_7.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -458,7 +460,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_8.jpg" />
+                    <img src="./images/footer/footer_8.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -468,7 +470,7 @@
                 </div>
                 <div class="image-hover-text-container">
                   <div class="image-hover-image">
-                    <img src="./images/footer/footer_9.jpg" />
+                    <img src="./images/footer/footer_9.jpg" alt="gallery-img" />
                   </div>
                   <div class="image-hover-text">
                     <div class="image-hover-text-bubble">
@@ -483,19 +485,19 @@
           <div class="footer-border"></div>
 
           <section class="footer-contact">
-            <div>
+            <div class="contact">
               <p><i class="fa-solid fa-phone"></i> Give us a call:</p>
               <p>+00 (123) 765 8765</p>
             </div>
-            <div>
+            <div class="contact">
               <p><i class="fa-solid fa-envelope"></i> Send us a mail:</p>
               <p>myName@domain.com</p>
             </div>
-            <div>
+            <div class="contact">
               <p><i class="fa-solid fa-clock"></i> Monday - Saturday:</p>
               <p>14.00am - 18.00pm</p>
             </div>
-            <div>
+            <div class="contact">
               <p><i class="fa-solid fa-location-dot"></i> Come visit us:</p>
               <p>Directions to my location</p>
             </div>
