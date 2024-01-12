@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+* {
     box-sizing: border-box;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -33,7 +31,7 @@ ul {
         top: 0;
         z-index: 1000;
         transition: background-color 0.3s ease-in-out;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #C43721;
     padding: 0 30px;
 }
 
@@ -57,8 +55,8 @@ ul {
     font-weight: 600;
     display: block;
     padding: 20px ;
-    color: red;
-    border: 1px solid red;
+    color: #C43721;
+    border: 1px solid #C43721;
     width: 300px;
     margin:  auto;
     border-radius: 2px;
@@ -66,7 +64,7 @@ ul {
 }
 
 .menu a:hover {
-    background-color: red;
+    background-color: #ef6d58;
     color: #fff;
 }
 
@@ -83,7 +81,7 @@ ul {
 /* Style label tag */
 
 .hamb-line {
-    background: red;
+    background: #C43721;
     display: block;
     height: 2px;
     position: relative;
@@ -95,7 +93,7 @@ ul {
 
 .hamb-line::before,
 .hamb-line::after {
-    background: red;
+    background: #C43721;
     content: '';
     display: block;
     height: 100%;
@@ -143,7 +141,7 @@ ul {
 @media (min-width: 768px) {
     .header{
         border: 0;
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid #C43721;
         padding: 0 100px;
     }
     .nav {
@@ -160,13 +158,13 @@ ul {
     }
 .menu a{
             padding: 8px 20px;
-            border: 1px solid red;
+            border: 1px solid #C43721;
             width: fit-content;
             margin: 20px 5px;
             border-radius: 3px;
 }
     .menu a:hover {
-        background-color: red;
+        background-color: #ef6d58;
         color:#fff;
 
     }

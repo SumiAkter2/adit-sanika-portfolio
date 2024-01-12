@@ -18,6 +18,9 @@ td {
     border-collapse: collapse;
     text-align: center;
 }
+tr td{
+    padding: 10px;
+}
 .desktop-table{
     display: block;
 }
