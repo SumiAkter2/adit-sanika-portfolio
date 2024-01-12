@@ -3,23 +3,12 @@
 *::before {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 ;
     font-family: 'Nunito Sans', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
 }
-/* 
-font-family: 'Nunito Sans',
-sans-serif;
-font-family: 'Yellowtail',
-cursive;
-*/
 
 
-
-:root {
-    --white: red;
-    --black: #36383F;
-    --gray: #85888C;
-}
 
 
 
@@ -68,7 +57,7 @@ ul {
     font-weight: 600;
     display: block;
     padding: 20px ;
-    color: var(--white);
+    color: red;
     border: 1px solid red;
     width: 300px;
     margin:  auto;
@@ -94,7 +83,7 @@ ul {
 /* Style label tag */
 
 .hamb-line {
-    background: var(--white);
+    background: red;
     display: block;
     height: 2px;
     position: relative;
@@ -106,7 +95,7 @@ ul {
 
 .hamb-line::before,
 .hamb-line::after {
-    background: var(--white);
+    background: red;
     content: '';
     display: block;
     height: 100%;

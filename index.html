@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="/CSS/Footer.css" />
     <link rel="stylesheet" href="/CSS/Index.css" />
+    <link rel="stylesheet" href="/CSS/Header.css" />
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +26,27 @@
     ></script>
   </head>
   <body>
+    <!---- navbar section -->
+    <header class="header" id="main-header">
+      <a href="/index.html" class="logo">
+        <img src="./images/logo.svg" alt="logo" width="60px"
+      /></a>
+
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Multifaceted</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- main content -->
     <main>
       <!-- banner section -->
@@ -426,5 +448,19 @@
         </div>
       </footer>
     </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var header = document.getElementById("main-header");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
