@@ -55,7 +55,7 @@ gap: 5px;
     color: gray;
     outline: none;
     background: #fff;
-    width: 350px;
+    width: 370px;
     font-weight: 600;
     margin: 5px 0;
     border-radius: 3px;
@@ -139,6 +139,45 @@ gap: 5px;
     display: block;
     color: #fff;
 }
+/* icon  */
+.social-icon{
+    display: flex;
+    margin-top: 20px;
+}
+.fa-brands{
+    margin-right: 10px;
+    background: lightgrey;
+    color:rgb(72, 72, 72);
+    padding: 8px;
+    border-radius: 2px;
+}
+.fa-dribbble:hover{
+background: #EA4C89;
+    color: #fff;
+}
+.fa-facebook:hover{
+    background:  #3B5998;
+    color: #fff;
+}
+.fa-google:hover{
+background: #DB4A39;
+    color: #fff;
+}
+.fa-linkedin-in:hover{
+background: #0E76A8;
+    color: #fff;
+}
+.fa-twitter:hover{
+background: #00ACEE;
+    color: #fff;
+}
+.fa-vk:hover{
+background: #4E658E;
+    color: #fff;
+}
+.fa-solid{
+    padding-right: 3px;
+}
 @media screen and (max-width:560px) {
 .footer{
 margin: 0 30px;
@@ -148,9 +187,12 @@ margin: 0 30px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .input-style, .submit-btn{
-        width: 300px;
+    .input-style{
+        width: 250px;
     }
+        .submit-btn {
+            width: 270px;
+        }
            /* image effect */
            .image-hover-text-bubble,.image-hover-image img {
                width: 80px;
@@ -160,5 +202,6 @@ margin: 0 30px;
            .footer-contact{
             grid-template-columns: repeat(2,1fr);
             gap: 20px;
+            font-size: 14px;
            }
 }
